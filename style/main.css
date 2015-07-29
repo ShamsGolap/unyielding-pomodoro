@@ -55,6 +55,10 @@ footer p {
   margin: 0;
 }
 
+header a {
+  position: absolute;
+}
+
 .working-message,
 .pause-message {
   display: none;
@@ -81,4 +85,14 @@ a:hover {
   color: #eeeeee;
   text-decoration: none;
   text-shadow: 1px 0 0 #111111;
+}
+
+label {
+  user-select: none;
+}
+
+label input {
+position: relative;
+vertical-align: middle;
+bottom: 0;
 }

@@ -12,24 +12,16 @@
 </head>
 <body>
     <header>
-        <h2>Unyielding Pomodoro</h2>
+        <h2>Configuration page</h2>
 
-        <a href="config.html">Configuration</a>
+        <a href="index.html">Back to the Pomodoro</a>
     </header>
 
     <section>
-        <h1 class="working-message">
-            ▸ Time to work as hard as you can! ◂
-        </h1>
-
-        <h1 class="pause-message">
-            ▹ Relax now, stretch a bit, walk a little. ◃
-        </h1>
-    </section>
-
-    <section>
-        <div id="minutes"></div>
-        <div id="seconds"></div>
+        <label for="sound-checkbox">
+            Enable sound notification:
+            <input type="checkbox" name="sound" id="sound-checkbox"/>
+        </label>
     </section>
 
     <footer>
@@ -38,9 +30,5 @@
             <a href="http://deur.co">Author</a>
         </p>
     </footer>
-
-    <script src="//cdn.rawgit.com/lugolabs/circles/63b38de34d3e9b1fc5ee992f51f50976090cf019/circles.min.js"></script>
-    <script src="scripts/utils.js"></script>
-    <script src="scripts/main.js"></script>
 </body>
 </html>
